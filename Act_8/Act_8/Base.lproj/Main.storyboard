@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="scj-5L-ehc">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Uno-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="1S" title="Uno" id="BYZ-38-t0r" customClass="ViewController" customModule="Act_8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="nOb-bN-eNd">
+                                <rect key="frame" x="43" y="150" width="342" height="626"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="nOb-bN-eNd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EaT-iR-3Qs"/>
+                            <constraint firstItem="nOb-bN-eNd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="TDx-7w-gyD"/>
+                            <constraint firstItem="nOb-bN-eNd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="Vo4-ql-Try"/>
+                            <constraint firstItem="nOb-bN-eNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oJB-4p-Qbx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="61.619190404797607"/>
+        </scene>
+        <!--Dos-->
+        <scene sceneID="FHR-VK-8gg">
+            <objects>
+                <viewController storyboardIdentifier="2S" title="Dos" id="scj-5L-ehc" customClass="ViewController" customModule="Act_8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UAw-SD-1rU">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="kAZ-ME-hDF">
+                                <rect key="frame" x="42" y="149.66666666666663" width="343" height="627"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="627" id="JS8-Xq-nhV"/>
+                                    <constraint firstAttribute="width" constant="343" id="qbE-VY-iyh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="j2o-6G-Lm6"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="kAZ-ME-hDF" firstAttribute="leading" secondItem="j2o-6G-Lm6" secondAttribute="leading" constant="42" id="am2-yO-gpG"/>
+                            <constraint firstItem="kAZ-ME-hDF" firstAttribute="centerY" secondItem="UAw-SD-1rU" secondAttribute="centerY" id="rzt-uR-NX7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2DF-62-dwo" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="61.619190404797607"/>
+        </scene>
+        <!--Tres-->
+        <scene sceneID="WJ6-vB-NxK">
+            <objects>
+                <viewController storyboardIdentifier="3S" title="Tres" id="8ta-Xb-l7k" customClass="ViewController" customModule="Act_8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hp1-zu-aE3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img3" translatesAutoresizingMaskIntoConstraints="NO" id="4qw-fr-jZ0">
+                                <rect key="frame" x="43" y="150" width="343" height="627"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="RW9-FZ-CQh"/>
+                                    <constraint firstAttribute="height" constant="627" id="c56-fl-GwB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GAZ-Fc-614"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="4qw-fr-jZ0" firstAttribute="centerY" secondItem="hp1-zu-aE3" secondAttribute="centerY" id="HDY-yq-LaV"/>
+                            <constraint firstItem="4qw-fr-jZ0" firstAttribute="leading" secondItem="GAZ-Fc-614" secondAttribute="leading" constant="43" id="Qdd-ua-gmV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgy-re-cXa" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="61.619190404797607"/>
+        </scene>
+        <!--Cuatro-->
+        <scene sceneID="d1J-E1-Js5">
+            <objects>
+                <viewController storyboardIdentifier="4S" title="Cuatro" id="EJ4-GJ-i5L" customClass="ViewController" customModule="Act_8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y7o-Ol-ug3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img4" translatesAutoresizingMaskIntoConstraints="NO" id="Erj-ia-zDQ">
+                                <rect key="frame" x="43" y="150" width="343" height="627"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Nkd-gg-uGs"/>
+                                    <constraint firstAttribute="height" constant="627" id="s90-ex-ENy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3ci-2J-zvG"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Erj-ia-zDQ" firstAttribute="centerY" secondItem="y7o-Ol-ug3" secondAttribute="centerY" id="H2h-nV-ae2"/>
+                            <constraint firstItem="Erj-ia-zDQ" firstAttribute="leading" secondItem="3ci-2J-zvG" secondAttribute="leading" constant="43" id="Kva-jh-wDA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HkW-lT-9v4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="61.619190404797607"/>
+        </scene>
+        <!--Cinco-->
+        <scene sceneID="LcW-3n-p6d">
+            <objects>
+                <viewController storyboardIdentifier="5S" title="Cinco" id="9jG-06-wic" customClass="ViewController" customModule="Act_8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GOv-zh-JxF">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img5" translatesAutoresizingMaskIntoConstraints="NO" id="p0O-iN-TZu">
+                                <rect key="frame" x="43" y="150" width="343" height="627"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="627" id="1uZ-9A-Fsf"/>
+                                    <constraint firstAttribute="width" constant="343" id="XL9-Rd-PYX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ENx-NU-CxA"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="p0O-iN-TZu" firstAttribute="centerY" secondItem="GOv-zh-JxF" secondAttribute="centerY" id="5Hl-IX-uhf"/>
+                            <constraint firstItem="p0O-iN-TZu" firstAttribute="leading" secondItem="ENx-NU-CxA" secondAttribute="leading" constant="43" id="mk8-CV-Wez"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ab-V3-EgQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="61.619190404797607"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img1" width="640" height="1136"/>
+        <image name="img2" width="640" height="1136"/>
+        <image name="img3" width="640" height="1136"/>
+        <image name="img4" width="640" height="1136"/>
+        <image name="img5" width="640" height="1136"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
